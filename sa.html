@@ -1,0 +1,139 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Cuadros Personalizados Arequipa</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #5ba26e;
+        }
+
+        /* ENCABEZADO */
+        header {
+            background-color: #19562b;
+            color: white;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* CONTENEDOR PRINCIPAL */
+        .principal {
+            display: flex;
+            justify-content: space-around;
+            padding: 30px;
+        }
+
+        /* IMAGEN PRINCIPAL */
+        .imagen {
+            width: 320px;
+            height: 320px;
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .bienvenida {
+            color: white;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        /* FORMULARIO */
+        .menu {
+            background-color: #e8f0ff;
+            padding: 20px;
+            width: 270px;
+        }
+
+        .menu h2 {
+            text-align: center;
+        }
+
+        .menu input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        .menu button {
+            width: 100%;
+            padding: 10px;
+            background-color: #347f2f;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .menu .secundario {
+            background-color: #453b9f;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Cuadros Personalizados Arequipa</h1>
+
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Galería</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- PRIMERA PARTE -->
+    <section class="principal">
+
+        <!-- IMAGEN Y TEXTO -->
+        <div>
+            <div class="imagen">
+                Imagen referente al negocio
+            </div>
+            <p class="bienvenida">
+                Transformamos tus recuerdos en arte personalizado...
+            </p>
+        </div>
+
+        <!-- MENÚ / FORMULARIO -->
+        <div class="menu">
+            <h2>Menú de acceso</h2>
+
+            <form>
+                <input type="text" placeholder="Nombres">
+                <input type="text" placeholder="Apellidos">
+                <input type="email" placeholder="Correo">
+                <input type="tel" placeholder="Teléfono">
+
+                <button type="submit">Entrar</button>
+                <button type="button" class="secundario">Ver trabajos</button>
+            </form>
+        </div>
+
+    </section>
+
+</body>
+</html>
